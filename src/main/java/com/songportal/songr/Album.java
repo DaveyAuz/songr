@@ -85,8 +85,7 @@ public class Album {
             model.addAttribute("album1", album1);
             model.addAttribute("album2", album2);
             model.addAttribute("album3", album3);
-
-            // Return the name of the Thymeleaf template to be rendered (e.g., albums.html)
+            
             return "albums";
         }
     }
