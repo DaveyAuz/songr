@@ -85,7 +85,7 @@ public class Album {
             model.addAttribute("album1", album1);
             model.addAttribute("album2", album2);
             model.addAttribute("album3", album3);
-            
+
             return "albums";
         }
     }
@@ -99,7 +99,7 @@ public class Album {
             System.out.println(album1);
 
 
-            System.out.println("Album Title: " + album1.getTitle());
+            System.out.println("Nothing is True & Everything is Possible: " + album1.getTitle());
             System.out.println("Enter Shikari: " + album1.getArtist());
             System.out.println("Number of Songs: " + album1.getSongCount());
             System.out.println("Length (seconds): " + album1.getLengthInSeconds());
@@ -107,4 +107,4 @@ public class Album {
         }
     }
 }
-}
+
